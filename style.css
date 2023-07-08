@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agdasima', sans-serif;
+}
+
+body{
+    background: #262a2f;
+}
+
+.container
+{
+ position: absolute;
+    width: 400px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    padding: 25px 35px;
+    transform: translate(-50%,-50%);
+
+}
+.container p{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 7px;
+    
+}
+
+.container input
+{
+    width: 250px;
+    border: 1px solid;
+    margin: 10px 0 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.container button
+{
+    border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+ border-radius: 20px;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+ margin: 10px -2px;
+ cursor: pointer;
+
+
+}
+.container button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+
+.imgbox
+{
+    width: 200px;
+    overflow: hidden;
+    
+}
+
+.imgbox img{
+    width: 100px;
+    padding: 2px;
+}
